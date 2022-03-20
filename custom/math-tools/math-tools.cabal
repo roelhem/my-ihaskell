@@ -1,0 +1,52 @@
+cabal-version:      2.4
+name:               math-tools
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             roelhem
+maintainer:         ik@roelweb.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  Math.AD.Data.Bracketing
+                      Math.AD.Real.FuncDescription
+                      Math.AD.Real.FuncChain
+                      Math.AD.Real.FuncDims
+                      Math.AD.Real.Properties
+                      Math.AD.Real.BruteForce
+                      Math.AD.Real.Plots
+                      Math.AD.Real.DynamicProgram
+                      Math.AD.Real
+
+    -- Modules included in this library but not exported.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.3.0
+                    , text
+                    , roel-base
+                    , HaTeX >= 3.9
+                    , hatex-extra
+                    , ihaskell >= 0.5
+                    , ihaskell-hatex
+                    , lens
+                    , comonad
+                    , mtl
+                    , Chart
+    hs-source-dirs:   src
+    default-language: Haskell2010

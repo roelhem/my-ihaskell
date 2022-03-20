@@ -19,4 +19,3 @@ library
                        HaTeX >= 3.9,
                        ihaskell >= 0.5
   default-language:    Haskell2010
-

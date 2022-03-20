@@ -19,6 +19,9 @@ packages:
     - ./ihaskell-display/ihaskell-plot
     # - ./ihaskell-display/ihaskell-static-canvas
     - ./ihaskell-display/ihaskell-widgets
+    - ./custom/hatex-extra
+    - ./custom/math-tools
+    - ./custom/roel-base
 
 extra-deps:
 - active-0.2.0.14

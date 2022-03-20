@@ -1,0 +1,44 @@
+cabal-version:      2.4
+name:               hatex-extra
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             roelhem
+maintainer:         ik@roelweb.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  Text.LaTeX.Helpers
+                      Text.LaTeX.Helpers.Real
+                      Text.LaTeX.Helpers.Display
+                      Text.LaTeX.Helpers.List
+                      Text.LaTeX.Helpers.Placeholders
+                      Text.LaTeX.Packages.Mathtools
+
+    -- Modules included in this library but not exported.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base ^>=4.14.3.0,
+                      roel-base,
+                      text,
+                      HaTeX >= 3.9,
+                      ihaskell >= 0.5,
+                      ihaskell-hatex
+    hs-source-dirs:   src
+    default-language: Haskell2010

@@ -3,7 +3,7 @@ name:                ihaskell
 
 -- The package version.  See the Haskell package versioning policy (PVP)
 -- for standards guiding when and how versions should be incremented.
--- http://www.haskell.org/haskellwiki/Package_versioning_policy
+-- http://www.haskell.org/haskellwiki/Package_versioning_policyca
 -- PVP summary:      +--+------- breaking API changes
 --                   |  | +----- non-breaking API additions
 --                   |  | | +--- code changes with no API change
